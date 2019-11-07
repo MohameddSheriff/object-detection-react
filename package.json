@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "yarn global add serve && npm run-script build && serve -p 8080 -s .",
+    "start": "npm run-script build && yarn global add serve && serve -p 8080 -s .",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
